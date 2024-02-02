@@ -1,2 +1,2 @@
-Pipeline d'intégration et de déploiement continu (CI/CD:Continuous Integration/Continuous Deployment) pour une application Java.
-Le script du pipeline fait appel à Maven pour build lors du premier stage (création du .jar) puis qui build une image docker lors du second et enfin qui push cette image sur Docker Hub.
+Il manque les fichiers Jenkins permettant de construire avec Maven le livrable my-app.jar à partir du code source Java présent dans ce repo.
+Le script du pipeline fait appel à Maven pour build lors du premier stage (création du .jar) puis qui build une image docker lors du second et enfin qui push cette image sur la registry  publique Docker Hub. L'image peut ensuite être "run" pour exposer l'application sur le port 8080 du conteneur.
